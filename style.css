@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 24px;
+    font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+    background: #90b8b8;
+    min-height: 100vh;
+}
+
+
+.heading {
+    display: flex;
+    align-items: stretch;
+    gap: 16px;
+    margin-bottom: 16px;
+    height: 80vh;         
+}
+
+.bubble {
+    background: rgb(173, 230, 216);
+    border-radius: 50px;
+    padding: 14px 28px;
+    font-size: 18px;
+    color: #1a3a4a;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;         
+}
+.user-bubble {
+    flex: 1;
+    border-radius: 50px;
+    height: 115%;           
+    background: rgb(173, 230, 216);
+}
+
+
+.checklist-bubble {
+    flex: 3;
+    border-radius: 50px;
+    height: 115%;
+    background: rgb(173, 230, 216);
+    padding: 14px 28px;      
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
